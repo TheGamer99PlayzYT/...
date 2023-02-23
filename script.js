@@ -37,7 +37,8 @@ const utterances = [
   ["what", "why", "how", "where", "when"],
   ["no", "not sure", "maybe", "no thanks"],
   [""],
-  ["haha", "ha", "lol", "hehe", "funny", "joke"]
+  ["haha", "ha", "lol", "hehe", "funny", "joke"],
+  ["are you gay", "u gay"]
 ];
 
 // Possible responses corresponding to triggers
@@ -70,7 +71,8 @@ const answers = [
   ["Great question"],
   ["That's ok", "What do you want to talk about?"],
   ["Please say something :("],
-  ["Haha!", "Good one!"]
+  ["Haha!", "Good one!"],
+  ["Yes", "Maybe only for you UwU"]
 ];
 
 // Random for any other user input
