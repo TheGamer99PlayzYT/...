@@ -5,11 +5,6 @@ inputField.addEventListener("keydown", (e) => {
     inputField.value = "";
     output(input);
   }
-  else if (e.keyCode === 13) {
-    let input = inputField.value;
-    inputField.value = "";
-    output(input);
-  }
 });
 
 // input options
