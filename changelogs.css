@@ -32,6 +32,7 @@ header.-fixed {
   width: 100%;
   background: white;
   z-index: 1;
+  cursor: pointer;
 }
 header > * {
   max-width: 1024px;
@@ -118,6 +119,7 @@ article section.version .label, article section.version .label-inline {
 article section.version .label.-s, article section.version .label-inline.-s {
   padding: 2px 6px;
   font-size: 10pt;
+  cursor: pointer;
 }
 article section.version .label.-m, article section.version .label-inline.-m {
   padding: 4px 10px;
@@ -186,6 +188,7 @@ article section.version ul li, article section.version ol li {
   display: flex;
   align-items: center;
   margin: 5px 0;
+  cursor: pointer;
 }
 article section.version dd {
   list-style-position: inside;
@@ -209,4 +212,40 @@ article section.version.-declined {
   header.-fixed + .wrap-content {
     padding-top: 100px;
   }
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+/* unvisited link */
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+}
+
+/* selected link */
+a:active {
+  color: black;
 }
